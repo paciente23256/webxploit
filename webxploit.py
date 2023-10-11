@@ -178,7 +178,7 @@ def ascii():
 ┓┏┏┏┓┣┓┓┏┏┓┃┏┓┓╋
 ┗┻┛┗ ┗┛┛┗┣┛┗┗┛┗┗
          ┛      
-     With Metaploit    
+     With Metasploit    
           """)
 
 
