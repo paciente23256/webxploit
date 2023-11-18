@@ -3,7 +3,7 @@
 
 
 """
-Forked form wez3.
+Forked from https://github.com/wez3.
 Changes: 
 * Possibility of using an IP or dns as a target;
 * Report export path;
