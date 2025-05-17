@@ -5,18 +5,17 @@
 webxploit 2.0.2025
 
 @paciente23256
+Improvements made (change log):
 
-Melhorias realizadas (change log):
-
-    - Uso do pathlib para paths mais seguros e legíveis.
-    - Remoção de redundâncias como verificações repetidas de argumentos.
-    - Modularização com funções pequenas e bem definidas
-    - Evita exceções genéricas, agora indicando qual erro ocorreu.
-    - Melhoria na leitura dos arquivos, usando .read_text() e .write_text() onde possível.
-    - Melhoria na leitura dos logs, evitando uso de system('grep').
-    - Melhoria na diversidade e formato dos relatórios.
-    - Possibilidade de adicionar um alvo (ip/dns).
-    - Novos modulos orientados a alvos Web.
+    - Use of pathlib for more secure and readable paths.
+    - Removal of redundancies such as repeated argument checks.
+    - Modularization with small, well-defined functions
+    - Avoid generic exceptions, now indicating which error occurred.
+    - Improved file reading, using .read_text() and .write_text() where possible.
+    - Improved log reading, avoiding the use of system(‘grep’).
+    - Improved diversity and format of reports.
+    - Possibility of adding a target (ip/dns).
+    - New modules aimed at web targets.
 
 """
 
