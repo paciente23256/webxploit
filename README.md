@@ -1,4 +1,4 @@
-# webxploit
+# webxploit 2.0
 Metasploit auto auxiliary script for Web Applications
 
 ![logo](https://imgur.com/eNmcstT.png "logo")
