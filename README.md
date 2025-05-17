@@ -7,17 +7,4 @@
 </a>
 <p></p>
 
-![logo](https://imgur.com/eNmcstT.png "logo")
-          
-
-**positional arguments:
-  Files                 Targets file
-
-options:
-  - h, --help            show this help message and exit
-  -j, --threads THREADS
-                        Number of Threads
-  -p, --project PROJECT
-                        Project Name
-  -f, --folder FOLDER   Report Path
-  -t, --target TARGET   Target IP/domain**
+![logo](https://i.imgur.com/6PxKnKz.png "logo")
