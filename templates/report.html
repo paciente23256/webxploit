@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Report - {{ project }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="p-4">
+  <div class="container">
+    <h2>Reports of Project: {{ project }}</h2>
+    <ul class="list-group">
+      {% for file in files %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          {{ file.name }}
+          <a class="btn btn-sm btn-success" href="/download/{{ project }}/{{ file.name }}">Download</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <br>
+    <a class="btn btn-secondary" href="/">← New Scan</a>
+  </div>
+</body>
+</html>
