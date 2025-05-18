@@ -21,12 +21,14 @@
 
 <img src="https://i.imgur.com/6PxKnKz.png" alt="Webxploit CLI" width="70%" height="70%">
 
+
 **Web Interface**
 
     python3 app.py
 
+    open your browser http://localhost:5000
 
-<img src="https://i.imgur.com/6PxKnKz.png" alt="Webxploit Dashboard" width="50%" height="50%">
+<img src="https://i.imgur.com/7RWeJM1.png" alt="Webxploit Dashboard" width="50%" height="50%">
 
 
 **You can follow the development of the scan (in verbose mode), in the console where you ran the flask server. At the end of the scan, you will see the results in various formats (Log, PDF, HTML, JSON) on the web interface.**
