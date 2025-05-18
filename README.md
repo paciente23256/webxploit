@@ -19,3 +19,9 @@
 **Web Interface**
 
     python3 app.py
+
+
+![logo](https://i.imgur.com/mIiphjD.png "logo")
+
+
+**You can follow the development of the scan (in verbose mode), in the console where you ran the flask server. At the end of the scan, you will see the results in various formats (Log, PDF, HTML, JSON) on the web interface.**
