@@ -7,17 +7,22 @@
 **Auto Web Exploit Framework with Metasploit**
 
 
-**step 1:** If you are using Kali distro.
+**Requirements:**
+
+**1:** If you are using Kali distro.
 
         sudo apt install metasploit-framework
         
-**step 1.1:** Download and Setup metasploit in Linux. 
+**1.1:** Download and Setup metasploit in other Linux distro. 
         
         curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 
 You can get more information about the framework here : https://www.offsec.com/metasploit-unleashed
 
-**step 2:** Download and run Webxploit in CLI. 
+
+**SETUP and USE:**
+
+**CLI Mode:** Download and run Webxploit in CLI. 
 
     sudo git clone https://github.com/paciente23256/webxploit.git
     cd webxploit
@@ -30,18 +35,20 @@ You can get more information about the framework here : https://www.offsec.com/m
 <img src="https://i.imgur.com/6PxKnKz.png" alt="Webxploit CLI" width="70%" height="70%">
 
 
-**Webxploit with Web Interface**
+**Web Interface Mode**
+
+After clone the repository:
 
     sudo python3 app.py
 
-Open in your browser: http://localhost:5000
+Then open in your browser: http://localhost:5000
 
 <img src="https://i.imgur.com/7RWeJM1.png" alt="Webxploit Dashboard" width="50%" height="50%">
 
 
 **You can follow the development of the scan (in verbose mode), in the console where you ran the flask server. At the end of the scan, you will see the results in various formats (Log, PDF, HTML, JSON) on the web interface.**
 
-**Metasploit Modules in use**
+# Metasploit Modules in use:
 
 
     "auxiliary/scanner/http/cert",
@@ -111,3 +118,4 @@ Open in your browser: http://localhost:5000
     "exploits/windows/http/tomcat_cgi_cmdlineargs"
 
 
+# with poetry @paciente23256 | Enjoy.
