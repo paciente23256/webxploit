@@ -48,7 +48,7 @@ Then open in your browser: http://localhost:5000
 
 **You can follow the development of the scan (in verbose mode), in the console where you ran the flask server. At the end of the scan, you will see the results in various formats (Log, PDF, HTML, JSON) on the web interface.**
 
-# Metasploit Modules in use:
+**Metasploit Modules in use:
 
 
     "auxiliary/scanner/http/cert",
@@ -118,4 +118,4 @@ Then open in your browser: http://localhost:5000
     "exploits/windows/http/tomcat_cgi_cmdlineargs"
 
 
-# with poetry @paciente23256 | Enjoy.
+**with poetry @paciente23256 | Enjoy.
