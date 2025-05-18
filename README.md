@@ -7,7 +7,11 @@
 **Auto Web Exploit Framework with Metasploit**
 
 
-    curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+**step 1:** Download and Setup metasploit. 
+        
+        curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+
+**step 2:** Download and run Webxploit. 
 
     git clone https://github.com/paciente23256/webxploit.git
     cd webxploit
@@ -15,7 +19,7 @@
 
 <p></p>
 
-![Alt text](https://i.imgur.com/6PxKnKz.png "dashboard")
+![Alt text](https://i.imgur.com/6PxKnKz.png=250x250 "dashboard")
 
 
 **Web Interface**
