@@ -7,6 +7,8 @@
 **Auto Web Exploit Framework with Metasploit**
 
 
+    curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+
     git clone https://github.com/paciente23256/webxploit.git
     cd webxploit
     python3 webxploit.py -h
