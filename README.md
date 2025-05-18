@@ -19,8 +19,11 @@
 
 <p></p>
 
-![Alt text](https://i.imgur.com/6PxKnKz.png=150x150 "dashboard")
+![](https://i.imgur.com/6PxKnKz.png=150x150)
+<p></p>
 
+
+<img src="https://i.imgur.com/6PxKnKz.png" alt="Description" width="80%" height="80%">
 
 **Web Interface**
 
