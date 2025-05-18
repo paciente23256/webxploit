@@ -19,7 +19,7 @@
 
 <p></p>
 
-![Alt text](https://i.imgur.com/6PxKnKz.png=250x250 "dashboard")
+![Alt text](https://i.imgur.com/6PxKnKz.png=150x150 "dashboard")
 
 
 **Web Interface**
