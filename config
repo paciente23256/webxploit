@@ -1,39 +1,47 @@
 {
   "modulesfolder": "modules",
   "logsfolder": "logs",
-  "defaultthreads": 10,
+  "defaultthreads": 7,
   "modules": [
-  
+
+    "auxiliary/scanner/http/cert",
+    "auxiliary/scanner/http/dir_listing",
+    "auxiliary/scanner/http/dir_scanner",
+    "auxiliary/scanner/http/dir_webdav_unicode_bypass",
+    "auxiliary/scanner/http/enum_wayback",
+    "auxiliary/scanner/http/files_dir",
+    "auxiliary/scanner/http/http_login",
+    "auxiliary/scanner/http/open_proxy",
+    "auxiliary/scanner/http/options",
+    "auxiliary/scanner/http/robots_txt",
+    "auxiliary/scanner/http/ssl_version",
+    "auxiliary/scanner/http/ssl",
+    "auxiliary/scanner/http/http_version",
+    "auxiliary/scanner/http/webdav_website_content",
     "auxiliary/fuzzers/http/http_form_field",
     "auxiliary/scanner/http/backup_file",
-    "auxiliary/scanner/http/cert",
+    "auxiliary/scanner/http/wordpress_login_enum",
+    "auxiliary/scanner/http/verb_auth_bypass",
     "auxiliary/scanner/http/cgit_traversal",
     "auxiliary/scanner/http/crawler",
-    "auxiliary/scanner/http/dir_scanner",
     "auxiliary/scanner/http/host_header_injection",
     "auxiliary/scanner/http/http_header",
     "auxiliary/scanner/http/http_hsts",
     "auxiliary/scanner/http/http_put",
     "auxiliary/scanner/http/http_traversal",
-    "auxiliary/scanner/http/http_version",
     "auxiliary/scanner/http/iis_internal_ip",
     "auxiliary/scanner/http/jboss_vulnscan",
     "auxiliary/scanner/http/log4shell_scanner",
     "auxiliary/scanner/http/lucky_punch",
     "auxiliary/scanner/http/mod_negotiation_scanner",
     "auxiliary/scanner/http/ms09_020_webdav_unicode_bypass",
-    "auxiliary/scanner/http/open_proxy",
-    "auxiliary/scanner/http/options",
-    "auxiliary/scanner/http/phpmyadmin_login",
-    "auxiliary/scanner/http/robots_txt",
-    "auxiliary/scanner/http/ssl_version",
     "auxiliary/scanner/http/svn_scanner",
     "auxiliary/scanner/http/tomcat_enum",
     "auxiliary/scanner/http/trace_axd",
     "auxiliary/scanner/http/trace",
     "auxiliary/scanner/http/vhost_scanner",
     "auxiliary/scanner/http/webdav_scanner",
-    "auxiliary/scanner/http/xpath",  
+    "auxiliary/scanner/http/xpath",
     "auxiliary/scanner/http/adobe_xml_inject",
     "auxiliary/scanner/http/apache_mod_cgi_bash_env",
     "auxiliary/scanner/http/apache_normalize_path",
@@ -48,8 +56,6 @@
     "exploits/multi/http/php_fpm_rce",
     "exploits/multi/http/php_cgi_arg_injection",
     "exploits/multi/http/stunshell_exec",
-    "exploits/multi/http/tomcat_mgr_deploy",
-    "auxiliary/scanner/http/tomcat_mgr_login",
     "exploits/multi/http/tomcat_jsp_upload_bypass",
     "exploits/multi/http/tomcat_mgr_upload",
     "exploits/multi/http/wso2_file_upload_rce",
@@ -66,9 +72,9 @@
 
   ],
   "settings": {
-  
+
     "auxiliary/scanner/http/cert": { "SHOWALL": "true","THREADS": "5" },
     "auxiliary/scanner/http/http_put" : { "FILENAME": "msf_http_put_test.txt","THREADS": "5" }
-    
+
   }
 }
