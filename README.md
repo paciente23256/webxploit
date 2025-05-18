@@ -12,11 +12,4 @@
 
 **Web Interface**
 
-webxploit/
-│
-├── app.py            # Flask app
-├── webxploit.py      # Seu código principal (com as correções de log)
-├── templates/
-│   └── index.html    # Página principal para controlar e mostrar status
-└── static/
-    └── (css/js)      # Se quiser estilizar ou ter scripts JS
+    python3 app.py
