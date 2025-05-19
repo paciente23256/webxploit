@@ -32,6 +32,34 @@ from subprocess import run, PIPE
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 
+class LogFormat(logging.Formatter):
+    crit_fmt = "%(msg)s"
+    err_fmt = "\033[0;33m\033[1m[!]\033[0m %(msg)s"
+    warn_fmt = "\033[0;34m\033[1m[*]\033[0m %(msg)s"
+    info_fmt = "\033[0;32m\033[1m[+]\033[0m %(msg)s"
+    dbg_fmt = "\033[0;31m\033[1m[-]\033[0m %(msg)s"
+
+    def format(self, record):
+        format_orig = self._fmt
+        self._fmt = {
+            logging.DEBUG: self.dbg_fmt,
+            logging.INFO: self.info_fmt,
+            logging.WARN: self.warn_fmt,
+            logging.ERROR: self.err_fmt,
+            logging.CRITICAL: self.crit_fmt,
+        }.get(record.levelno, self._fmt)
+
+        result = super().format(record)
+        self._fmt = format_orig
+        return result
+
+log = logging.getLogger('webxploit')
+if not log.hasHandlers():
+    handler = logging.StreamHandler()
+    handler.setFormatter(LogFormat())
+    log.addHandler(handler)
+    log.setLevel(logging.DEBUG)
+
 
 def load_config(config_path):
     try:
@@ -111,27 +139,6 @@ def get_successful(project_name, logs_folder):
 
     log.critical('\n→→→→→→→→→→ MFS Completed ←←←←←←←←←←')
 
-
-class LogFormat(logging.Formatter):
-    crit_fmt = "%(msg)s"
-    err_fmt = "\033[0;33m\033[1m[!]\033[0m %(msg)s"
-    warn_fmt = "\033[0;34m\033[1m[*]\033[0m %(msg)s"
-    info_fmt = "\033[0;32m\033[1m[+]\033[0m %(msg)s"
-    dbg_fmt = "\033[0;31m\033[1m[-]\033[0m %(msg)s"
-
-    def format(self, record):
-        format_orig = self._fmt
-        self._fmt = {
-            logging.DEBUG: self.dbg_fmt,
-            logging.INFO: self.info_fmt,
-            logging.WARN: self.warn_fmt,
-            logging.ERROR: self.err_fmt,
-            logging.CRITICAL: self.crit_fmt,
-        }.get(record.levelno, self._fmt)
-
-        result = super().format(record)
-        self._fmt = format_orig
-        return result
 
 
 
