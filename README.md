@@ -44,8 +44,7 @@
 
 
 **Web Interface Mode**
-```bash
-$ tree test
+
 ```
 ```
 webxploit/
