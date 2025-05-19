@@ -88,8 +88,8 @@ webxploit/
 ├── webxploit.py      # webexploit framework
 ├── templates/
 │   └── index.html    # Main page - Dashboard
-|   |__ report.html   # Reports page
-|          
+│   └── report.html   # Reports page
+│          
 └── static/
     └── (css/js)      # Style files /JS scripts
 ```
