@@ -15,12 +15,12 @@
 **Requirements:**
 
 
-* #If you are using Kali distro.
+# * If you are using Kali distro.
 
         sudo apt install metasploit-framework
 
 
-* [kali](#Download and Setup metasploit in other Linux distro.)
+# * Download and Setup metasploit in other Linux distro.
         
         
         curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
