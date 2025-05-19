@@ -15,7 +15,7 @@
 **Requirements:**
 
 * Verify python
-* 
+
 ```bash
 $ sudo apt-get install python3
 
