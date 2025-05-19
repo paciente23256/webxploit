@@ -17,7 +17,7 @@
 
 * If you are using Kali distro.
 
-        sudo apt install metasploit-framework
+          sudo apt install metasploit-framework
 
 
 * Download and Setup metasploit in other Linux distro.
@@ -28,7 +28,7 @@
 **You can get more information about the framework here : https://www.offsec.com/metasploit-unleashed**
 
 
-**SETUP and USE:**
+
 
 **CLI Mode:** Download and run Webxploit in CLI. 
 
@@ -44,8 +44,6 @@
 
 
 **Web Interface Mode**
-
-After clone the repository:
 
     cd webxploit/
     sudo python3 app.py
