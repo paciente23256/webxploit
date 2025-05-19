@@ -85,11 +85,13 @@ options:
 webxploit/
 │
 ├── app.py            # Flask app
-├── webxploit.py      # Seu código principal (com as correções de log)
+├── webxploit.py      # webexploit framework
 ├── templates/
-│   └── index.html    # Página principal para controlar e mostrar status
+│   └── index.html    # Main page - Dashboard
+|   |__ report.html   # Reports page
+|          
 └── static/
-    └── (css/js)      # Se quiser estilizar ou ter scripts JS
+    └── (css/js)      # Style files /JS scripts
 ```
    
     cd webxploit/
