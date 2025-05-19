@@ -1,5 +1,6 @@
 # webxploit 2.0
 
+
 <a target="_blank" href="https://en.wikipedia.org/wiki/Python_(programming_language)">
 <img src="https://img.shields.io/static/v1?label=python&message=3.10%20|%203.11&color=informational&logo=python"/>
 </a>
@@ -9,11 +10,11 @@
 
 **Requirements:**
 
-**1:** If you are using Kali distro.
+**a:** If you are using Kali distro.
 
         sudo apt install metasploit-framework
         
-**1.1:** Download and Setup metasploit in other Linux distro. 
+**b:** Download and Setup metasploit in other Linux distro. 
         
         curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 
@@ -39,6 +40,7 @@ You can get more information about the framework here : https://www.offsec.com/m
 
 After clone the repository:
 
+    cd webxploit/
     sudo python3 app.py
 
 Then open in your browser: http://localhost:5000
@@ -48,7 +50,7 @@ Then open in your browser: http://localhost:5000
 
 **You can follow the development of the scan (in verbose mode), in the console where you ran the flask server. At the end of the scan, you will see the results in various formats (Log, PDF, HTML, JSON) on the web interface.**
 
-**Metasploit Modules in use:
+**Metasploit Modules in use:**
 
 
     "auxiliary/scanner/http/cert",
@@ -118,4 +120,4 @@ Then open in your browser: http://localhost:5000
     "exploits/windows/http/tomcat_cgi_cmdlineargs"
 
 
-**with poetry @paciente23256 | Enjoy.
+**with poetry @paciente23256 | Enjoy.**
