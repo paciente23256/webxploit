@@ -1,25 +1,31 @@
 # webxploit 2.0
 <p></p>
+
 <a target="_blank" href="https://en.wikipedia.org/wiki/Python_(programming_language)">
 <img src="https://img.shields.io/static/v1?label=python&message=3.10%20|%203.11&color=informational&logo=python"/>
 </a>
+
 <p></p>
 
 **Auto Web Exploit Framework with Metasploit**
 <p></p>
 <p></p>
 <p></p>
+
 **Requirements:**
 
-**a:** If you are using Kali distro.
+
+* [kali](#If you are using Kali distro.)
 
         sudo apt install metasploit-framework
+
+
+* [kali](#Download and Setup metasploit in other Linux distro.)
         
-**b:** Download and Setup metasploit in other Linux distro. 
         
         curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 
-You can get more information about the framework here : https://www.offsec.com/metasploit-unleashed
+**You can get more information about the framework here : https://www.offsec.com/metasploit-unleashed**
 
 
 **SETUP and USE:**
