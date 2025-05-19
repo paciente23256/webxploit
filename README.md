@@ -14,6 +14,18 @@
 
 **Requirements:**
 
+* Verify python
+* 
+```bash
+$ sudo apt-get install python3
+
+$ which python3.10
+/usr/bin/python3.10
+
+$ which python3
+/usr/bin/python3
+
+```  
 
 * If you are using Kali distro.
 
