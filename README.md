@@ -1,5 +1,5 @@
 # webxploit 2.0
-<p></p>
+
 
 <a target="_blank" href="https://en.wikipedia.org/wiki/Python_(programming_language)">
 <img src="https://img.shields.io/static/v1?label=python&message=3.10%20|%203.11&color=informational&logo=python"/>
@@ -39,9 +39,6 @@
     
     sudo python3 webxploit.py -h
 
-```
-
-```bash
      ┓     ┓  •
 ┓┏┏┏┓┣┓┓┏┏┓┃┏┓┓╋
 ┗┻┛┗ ┗┛┛┗┣┛┗┗┛┗┗
@@ -68,7 +65,6 @@ options:
 
 <p></p>
 
-<img src="https://i.imgur.com/6PxKnKz.png" alt="Webxploit CLI" width="70%" height="70%">
 
 
 **Web Interface Mode**
