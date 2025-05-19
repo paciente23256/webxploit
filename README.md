@@ -15,7 +15,7 @@
 **Requirements:**
 
 
-* [kali](#If you are using Kali distro.)
+* #If you are using Kali distro.
 
         sudo apt install metasploit-framework
 
