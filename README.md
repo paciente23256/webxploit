@@ -39,8 +39,8 @@ $ which python3
 
 **You can get more information about the framework here : https://www.offsec.com/metasploit-unleashed**
 
-
-
+<p></p>
+<p></p>
 
 **CLI Mode:** Download and run Webxploit in CLI. 
 
